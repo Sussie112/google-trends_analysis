@@ -16,8 +16,6 @@ library(lmtest)
 
 library(readxl)
 
-setwd("/Users/susan/Desktop/SE/SE data")
-
 arrival_folder <- "raw_arrivals"
 
 
@@ -254,7 +252,6 @@ cat("Final dataset saved as vienna_tourism.csv\n")
 # -------------------------
 # 1.prepare data
 # -------------------------
-setwd("/Users/susan/Desktop/SE/data")
 
 df <- read.csv("vienna_tourism.csv", stringsAsFactors = FALSE)
 
